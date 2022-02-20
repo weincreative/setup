@@ -274,7 +274,7 @@ while True:
                         #subprocess.Popen(['runner.sh'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
         if _APPID == "ADMIN":
-            services.execute(f"UPDATE toplamValletUSDT set valueMaxMargin = '7914.5' where tid = '1' ")
+            services.execute(f"UPDATE toplamValletUSDT set valueMaxMargin = '8174.5' where tid = '1' ")260
             connection.commit()
             activeControler = False
         #break # BUNU SILMEZSEN DEVAM ETMEZ
